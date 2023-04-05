@@ -29,7 +29,7 @@ for i in range(9):
         elements[i].send_keys("owcg4589")
 
 time.sleep(6)
-name = 'Images/3.png'
+name = 'Images/4.png'
 print(name)
 driver.save_screenshot(name)
 driver.quit()
