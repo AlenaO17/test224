@@ -1,6 +1,10 @@
-<<<<<<< HEAD
-# test224
-=======
-# test224
-hhgvhmgvhgv
->>>>>>> e24c48e (Create README.md)
+QA224
+DZ31-03.py
+использован  selenium webdriver
+и страничка https://makarova1507ana.github.io/registration_page/
+Найдены три последних элемента перебором (через цикл for)
+и подставлены различные элементы
+поле даты рождения заполнено рондомной датой 
+DZ31-03.py
+
+
