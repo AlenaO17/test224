@@ -5,9 +5,6 @@ def is_valid_side(*sides):  # * -плавающее кол-во параметр
             return False
     return True
 
-# проверка существование треугольник
-# если a+b>c (соответственно для остальных)иначе false
-# стороны треугольника должны быть больше 0, иначе ожидаем false
 def isTriangle(a, b, c):
     if is_valid_side(a, b, c):
         if a + b > c and a + c > b and b + c > a:
@@ -38,3 +35,4 @@ def test_isTriangle():
 def test_isTriangle():
     result = isTriangle(f, 4, 5)
     assert result == True
+# Конечный вариант1
