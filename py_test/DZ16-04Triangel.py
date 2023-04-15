@@ -35,4 +35,4 @@ def test_isTriangle():
 def test_isTriangle():
     result = isTriangle(f, 4, 5)
     assert result == True
-# Конечный вариант1
+# Конечный вариант
