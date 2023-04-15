@@ -1,5 +1,5 @@
 import pytest
-def is_valid_side(*sides):  # * -плавающее кол-во параметров
+def is_valid_side(*sides):
     for side in sides:
         if side <= 0:
             return False
